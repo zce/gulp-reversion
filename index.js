@@ -49,10 +49,10 @@ var revPlugin = function revPlugin() {
           hash = crypto.createHash('md5');
           hash.update(data.toString(), 'utf8');
           line = line.replace(groups[4], groups[4] + '?v=' + hash.digest('hex'));
-          console.log(line);
+          // console.log(line);
         } catch (e) {
           // fail silently.
-          console.log(e);
+          // console.log(e);
         }
       }
       lines[i] = line;
