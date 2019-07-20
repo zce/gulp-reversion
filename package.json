@@ -9,7 +9,7 @@
   "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
   "license": "ISC",
   "dependencies": {
-    "event-stream": "^3.3.2",
+    "event-stream": "^4.0.0",
     "gulp-util": "^3.0.7"
   }
 }
